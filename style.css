@@ -114,12 +114,13 @@ nav{
 .moviestack1{
     width: 100%;
     margin-top: -50px;
-    margin-left:-110px ;
+    margin-left:-70px ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .moviestack1 img{
+    width: 320px;
     margin-right: -190px;
     border-radius: 5px;
    
@@ -143,17 +144,21 @@ nav{
 .topmoviesdiv{
     display: flex;
     flex-wrap: wrap;
+    margin-right: 25px;
+    margin-left: -30px;
+    justify-content: space-evenly;
 }
 .topmovies{
     width: 350px;
-    margin-right: -70px;
+    margin-right: -130px;
     display: flex;
     padding-top: 30px;
     justify-content: center;
 }
 
 .topmovies img{
-    height: 180px;
+    height: 150px;
+    border-radius: 5px;
     margin-left: -5px;
 }
 /* Trending Movies */
@@ -171,7 +176,7 @@ nav{
 
 .moviestack2{
     margin-top: 50px;
-    margin-left: -300px;
+    margin-left: -250px;
     padding-right: 200px;
     display: flex;
     flex-wrap: wrap;
@@ -179,8 +184,9 @@ nav{
     
 }
 .moviestack2 img{
+    width: 320px;
     margin-right: -200px;
-    border-radius: 5px;}
+    border-radius: 10px;}
 
 
 /* Sci-fi */
