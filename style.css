@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Montserrat&family=Play&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav{
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: large;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stack1{
+    margin-right: 300px;
+    width: 500px;
+    display: flex ;
+    justify-content: space-evenly;
+}
+
+.stack1 a{
+    margin-top: 7px;
+}
+.stack2{
+    margin-left: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.stack2 img{
+    margin-top: 4px;
+    height: 22px;
+}
+
+/* header */
+.header{
+    width: 100%;
+    height: 1000px;
+    background: url(assets/Title-Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* main */
+.main{
+    color: white;
+    
+        margin-top: 400px;
+        margin-left: 75px;
+}
+
+.logodiv{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.logodiv h3{
+    font-size: 25px;
+    margin-left: 20px;
+    letter-spacing:20px;
+}
+.main h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+}
+
+.main button{
+    margin-left: 10px;
+    padding:10px 20px ;
+    font-size: 28px;
+    border-radius:5px ;
+    border-color: transparent;
+}
+
+
+.button2{
+    background-color:rgb(140, 141, 144);
+    color: white;
+    opacity: 0.7;
+}
+
+
+.movielist{
+    margin-top: -20px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    flex-wrap: wrap;
+    
+    display: flex
+}
+
+.header span{
+    color: white;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-left:85px ;
+}
+.header span h3{
+
+    margin-right: 10px;
+}
+
+.moviestack1{
+    width: 100%;
+    margin-top: -50px;
+    margin-left:30px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.moviestack1 img{
+    width: 290px;
+    border-radius: 5px;
+   
+}
+
+
+/* Top Movies */
+.top10{
+    padding-top: 50px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    
+}
+.top10 span{
+    display: flex;
+    margin-left: 80px;
+}
+.top10 span img{
+    margin-left:20px ;
+}
+.topmoviesdiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.topmovies{
+    width: 350px;
+    margin-right: -60px;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.topmovies img{
+    height: 180px;
+}
+/* Trending Movies */
+.trendingnow{
+    flex-wrap: wrap;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+}
+.trendingnow span{
+    color: white;
+    display: flex;
+    margin-left: 80px;
+}
+
+.moviestack2{
+    
+    display: flex;
+    padding-top: 40px;
+}
+
+
+/* Sci-fi */
+
+.scifi{
+    padding-top: 30px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+.scifi span {
+    display: flex;
+    margin-left: 80px;}
+
+
+/* Footer */
+footer{
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    font-size: small;
+    font-weight: 1px;
+    color: grey;
+    justify-content: space-evenly;
+}
+
+.fostack1{
+    display: flex;
+    margin-left: 250px;
+    width: 200px;
+    justify-content: space-evenly;
+}
+.fostack1 img{
+
+    margin-top: 50px;
+    filter: invert(1);
+}
