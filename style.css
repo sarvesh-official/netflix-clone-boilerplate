@@ -114,13 +114,13 @@ nav{
 .moviestack1{
     width: 100%;
     margin-top: -50px;
-    margin-left:30px ;
+    margin-left:-60px ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .moviestack1 img{
-    width: 290px;
+    margin-right: -170px;
     border-radius: 5px;
    
 }
@@ -168,23 +168,31 @@ nav{
 }
 
 .moviestack2{
-    
+    margin-top: 50px;
+    margin-left: -150px;
     display: flex;
-    padding-top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
 }
+.moviestack2 img{
+    margin-right: -50px;
+    border-radius: 5px;}
 
 
 /* Sci-fi */
 
 .scifi{
     padding-top: 30px;
+    padding-left:180px ;
     color: white;
     background-color: rgb(20, 20, 20);
 }
 
 .scifi span {
     display: flex;
-    margin-left: 80px;}
+    margin-left:-100px ;    
+}
 
 
 /* Footer */
@@ -211,7 +219,7 @@ footer{
 
 .fostack1{
     display: flex;
-    margin-left: 250px;
+    margin-left: 8%;
     width: 200px;
     justify-content: space-evenly;
 }
@@ -237,3 +245,4 @@ footer{
     margin-left:17%;
 
 }
+
