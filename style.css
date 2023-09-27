@@ -157,14 +157,15 @@ nav{
 }
 /* Trending Movies */
 .trendingnow{
-    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-left: 180px;
+    color: white;
     background-color: rgb(20, 20, 20);
-    display: flex;
 }
 .trendingnow span{
     color: white;
     display: flex;
-    margin-left: 80px;
+    margin-left: -100px;
 }
 
 .moviestack2{
