@@ -81,6 +81,8 @@ nav{
     padding:10px 20px ;
     font-size: 28px;
     border-radius:5px ;
+    overflow-x: visiblw;
+
     border-color: transparent;
 }
 
