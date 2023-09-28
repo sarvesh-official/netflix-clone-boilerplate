@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 
 }
 
@@ -119,7 +118,6 @@ nav{
     margin-top: -50px;
     margin-left:-70px ;
     display: flex;
-    overflow-x: visiblw;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
