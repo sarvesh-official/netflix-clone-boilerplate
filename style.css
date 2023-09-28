@@ -81,7 +81,6 @@ nav{
     padding:10px 20px ;
     font-size: 28px;
     border-radius:5px ;
-    overflow-x: visiblw;
 
     border-color: transparent;
 }
@@ -120,6 +119,7 @@ nav{
     margin-top: -50px;
     margin-left:-70px ;
     display: flex;
+    overflow-x: visiblw;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
