@@ -259,3 +259,193 @@ footer{
 }
 
     
+
+
+/* Mobile Responsive */
+
+@media  (max-width:393px) {
+
+    *{
+        font-size: 12px;
+    }
+body{
+    width: 393px;
+}
+
+    /* Header */
+    .header {
+            padding-top: 10px;
+            width: 393px;
+            height: 500px;
+            background: url(assets/Title-Image.png);
+            display: flex;
+            background-repeat: no-repeat;
+            background-size: 100% 500px;
+            
+        }
+    
+    nav {
+            color: rgb(0, 0, 0);
+            width: 393px;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: medium;
+            background-color: transparent;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            padding-right: 10px;
+            
+        }
+
+                .stack1 {
+                    width: 250px;
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-left: 80px;
+                    
+                }
+        
+                .stack1 a {
+                    margin-top: 7px;
+                }
+        
+                .stack2 {
+                    width: 150px;
+                    margin-top: 10px;
+                    margin-left:130px;
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+        
+                .stack1 img{
+                    margin-top: 5px;
+                    height:15px ;
+                    width: 40px;
+                    
+                }
+                .stack2 img {
+                    margin-top: 4px;
+                    height: 13px;
+                }
+
+                /* Main div */
+        .main {
+            margin-left: -300px;
+            margin-top: 140px;
+            color: white;
+        
+
+            
+        }
+        .main h1{
+            font-size :80px;
+            padding-top: 20px;
+            margin-left: -80px;
+        }
+            
+        
+        .main h3{
+            font-size: 15px;
+            letter-spacing: 10px;
+        }
+        .logodiv{
+            margin-left:-80px;
+            
+        }
+        .logodiv img{
+            height: 34px;
+        }
+
+        .main .button1{
+            margin-top:10px ;
+            margin-left: -80px;
+            font-size: 10px;
+            width: 80px;
+            padding: 10px 0s;
+        }
+
+        button img{
+            width: 10px;
+        }
+        .main .button2{
+            margin-top:10px ;
+            font-size: 10px;
+            width: 100px;
+            padding: 10px 0px;
+        }
+
+        #addbutton{
+            position: relative;
+            margin-left: 250px !important;
+        }
+
+        .header span{
+    color: white;
+    position: relative;
+    margin-left: -355px;
+    margin-top: 250px;
+    font-size: 20px;
+    align-items: center;
+}
+    .header span img{
+        height: 12px;
+}
+
+        /* Movie Stack */
+    .movielist{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .moviestack1{
+        margin-left: -230px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .moviestack1 img {
+            width: 400px;
+            border-radius: 10px;
+            padding: 20px;
+            margin-right: -80px;
+        }
+
+    
+    .moviestack2{
+        margin-left: -210px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .moviestack2 img {
+            width: 400px;
+            border-radius: 10px;
+            padding: 20px;
+    
+        }
+
+    #movie6{
+        display:none;
+    }
+
+    /* Footer */
+    .fostack1{
+        width: 100%;
+        padding: 10px ;
+        margin-left: -90px;
+    
+    }
+
+    .fostack1 img{
+        padding: 0px 30px;
+    }
+
+    .fostack2{
+        margin-left: 10px;
+    }
+
+    footer{
+        padding: 0px 30px;
+    }
+
+
+
+}
