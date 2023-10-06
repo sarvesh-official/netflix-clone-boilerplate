@@ -231,7 +231,7 @@ footer{
 
 .fostack1{
     display: flex;
-    margin-left: 9%;
+    margin-left: 9.5%;
     width: 200px;
     justify-content: space-evenly;
 }
@@ -251,10 +251,10 @@ footer{
 }
 
 .fostack2{
-    margin-left: 58px;;
+    margin-left: 4%;;
 }
 .copyright p{
-    margin-left:17%;
+    margin-left:18.5%;
 
 }
 
@@ -298,29 +298,31 @@ body{
         }
 
                 .stack1 {
-                    width: 250px;
+                    width: 350px;
                     display: flex;
                     justify-content: space-evenly;
-                    margin-left: 80px;
+                    margin-left: 30px;
                     
                 }
         
                 .stack1 a {
                     margin-top: 7px;
+                    font-size: 15px;
                 }
         
                 .stack2 {
                     width: 150px;
                     margin-top: 10px;
                     margin-left:130px;
-                    display: flex;
+                    display: none;
                     justify-content: space-evenly;
                 }
         
                 .stack1 img{
                     margin-top: 5px;
-                    height:15px ;
-                    width: 40px;
+                    margin-left: -25px;
+                    height:20px ;
+                    width: 45px;
                     
                 }
                 .stack2 img {
@@ -430,7 +432,7 @@ body{
     .fostack1{
         width: 100%;
         padding: 10px ;
-        margin-left: -90px;
+        margin-left: -80px;
     
     }
 
@@ -446,6 +448,6 @@ body{
         padding: 0px 30px;
     }
 
-
+    
 
 }
