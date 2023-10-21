@@ -1,212 +1,219 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Montserrat&family=Play&family=Roboto&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: visible;
 }
 
-body{
+body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Navigation Bar */
-nav{
-    color: rgb(0, 0, 0);
+nav {
+    color: rgb(255, 255, 255);
     font-family: 'Bebas Neue', sans-serif;
     font-size: large;
     background-color: transparent;
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 15px;
+    justify-content: space-between;
+    padding-top: 5px;
 }
 
-.stack1{
-    margin-right: 800px;
+.stack1 {
+    margin-left: 20px;
     width: 500px;
-    display: flex ;
+    display: flex;
     justify-content: space-evenly;
 }
-
-.stack1 a{
+.i{
+    filter: invert();
+}
+.stack1 a {
     margin-top: 7px;
 }
-.stack2{
-    margin-left: 200px;
+
+.stack2 {
+    margin-right: 60px;
     width: 200px;
     display: flex;
     justify-content: space-evenly;
 }
 
-
-.stack2 img{
+.stack2 img {
     margin-top: 4px;
     height: 22px;
 }
 
-/* header */
-.header{
+/* Header */
+.header {
     width: 100%;
-    height: 1000px;
-    background: url(assets/Title-Image.png);
-    background-repeat: no-repeat;
+    height: 110vh;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(./assets/Title-Image.png);    background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* main */
-.main{
+#addbutton{
+    margin-left: 96%;
+}
+/* Main */
+.main {
     color: white;
-    
-        margin-top: 400px;
-        margin-left: 75px;
+    margin-top: 320px;
+    margin-left: 50px;
 }
 
-.logodiv{
+.logodiv {
     margin-left: 10px;
     display: flex;
     align-items: center;
 }
-.logodiv h3{
+
+.logodiv h3 {
     font-size: 25px;
-    margin-left: 20px;
-    letter-spacing:20px;
-}
-.main h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 200px;
+    margin-left: 18px;
+    letter-spacing: 20px;
 }
 
-.main button{
+.main h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 180px;
+}
+
+.main button {
     margin-left: 10px;
-    padding:10px 20px ;
+    padding: 10px 20px;
     font-size: 28px;
-    border-radius:5px ;
+    border-radius: 5px;
     border-color: transparent;
 }
 
-
-.button2{
-    background-color:rgb(140, 141, 144);
+.button2 {
+    background-color: rgb(140, 141, 144);
     color: white;
     opacity: 0.7;
 }
 
-
-.movielist{
-    margin-top: -20px;
-    background-color: rgb(20, 20, 20);
-    color: white;
-    flex-wrap: wrap;
-    
-    display: flex
-}
-
-.header span{
+.header span {
     color: white;
     display: flex;
     font-size: 20px;
     align-items: center;
-    margin-left:85px ;
+    margin-left: 60px;
 }
-.header span h3{
 
+.header span h3 {
     margin-right: 10px;
 }
 
-.moviestack1{
-    width: 100%;
-    margin-top: -62px;
-    margin-left:-210px ;
-    padding-left: 235px;
-    display: flex;
+/* Movie */
+.movielist {
+    background-color: rgb(20, 20, 20);
+    color: white;
     flex-wrap: wrap;
-}
-.moviestack1 img{
-    width: 400px;
-    border-radius: 10px;
-    margin-right: -80px;
+    display: flex;
 }
 
+.moviestack1 {
+    margin-top: -45px;
+    display: flex;
+    margin-left: 8px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.moviestack1 img {
+    width: 301px;
+    border-radius: 10px;
+}
 
 /* Top Movies */
-.top10{
+.top10 {
     padding-top: 50px;
     color: white;
     background-color: rgb(20, 20, 20);
-    
 }
-.top10 span{
+
+.top10 span {
     display: flex;
-    margin-left: 80px;
+    margin-left: 60px;
 }
-.top10 span img{
-    margin-left:20px ;
+
+.top10 span img {
+    margin-left: 10px;
 }
-.topmoviesdiv{
+
+.topmoviesdiv {
     display: flex;
     flex-wrap: wrap;
-
 }
-.topmovies{
-    width: 350px;
+
+.topmovies {
+    width: 330px;
     display: flex;
     padding-top: 30px;
     justify-content: center;
     margin-right: -40px;
 }
 
-.topmovies img{
+.topmovies img {
     height: 190px;
     border-radius: 5px;
     margin-left: -5px;
 }
+
 /* Trending Movies */
-.trendingnow{
+.trendingnow {
     padding-top: 30px;
     padding-left: 180px;
     color: white;
     background-color: rgb(20, 20, 20);
 }
-.trendingnow span{
+
+.trendingnow span {
     color: white;
     display: flex;
-    margin-left: -100px;
+    margin-left: -120px;
 }
 
-.moviestack2{
+.moviestack1 {
+    margin-top: -45px;
+    display: flex;
+    margin-left: 8px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.moviestack2 {
     width: 100%;
     margin-top: 20px;
-    margin-left: -200px;
     display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-evenly; */
-    
-}
-.moviestack2 img{
-    width: 400px;
-    border-radius: 10px;
-    margin-right: -100px;
-    margin-left: 30px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
+.moviestack2 img {
+    width: 302px;
+    border-radius: 10px;
+    margin-left: -169px;
+}
 
 /* Sci-fi */
-
-.scifi{
+.scifi {
     padding-top: 30px;
-    padding-left:180px ;
+    padding-left: 180px;
     color: white;
     background-color: rgb(20, 20, 20);
 }
 
 .scifi span {
+    color: white;
     display: flex;
-    margin-left:-100px ;    
+    margin-left: -120px;
 }
 
-
 /* Footer */
-footer{
+footer {
     padding-top: 30px;
     line-height: 200%;
     background-color: rgb(20, 20, 20);
@@ -218,8 +225,9 @@ footer{
     color: grey;
     justify-content: space-evenly;
 }
+
 /* Footer Button */
-.foobutton{
+.foobutton {
     border-radius: 5px;
     border: solid;
     border-color: gray;
@@ -229,18 +237,19 @@ footer{
     padding: 5px;
 }
 
-.fostack1{
+.fostack1 {
     display: flex;
-    margin-left: 9.5%;
+    margin-left: 5.5%;
     width: 200px;
     justify-content: space-evenly;
 }
-.fostack1 img{
 
+.fostack1 img {
     margin-top: 50px;
     filter: invert(1);
 }
-.copyright{
+
+.copyright {
     width: 100%;
     padding-top: 15px;
     font-size: 10px;
@@ -250,204 +259,170 @@ footer{
     background-color: rgb(20, 20, 20);
 }
 
-.fostack2{
-    margin-left: 4%;;
-}
-.copyright p{
-    margin-left:18.5%;
-
+.fostack2 {
+    margin-left: 4%;
 }
 
-    
-
+.copyright p {
+    margin-left: 18.5%;
+}
 
 /* Mobile Responsive */
-
-@media  (max-width:393px) {
-
-    *{
+@media (max-width: 393px) {
+    * {
         font-size: 12px;
     }
-body{
-    width: 393px;
-}
+
+    body {
+        width: 100%;
+    }
 
     /* Header */
     .header {
-            padding-top: 10px;
-            width: 393px;
-            height: 500px;
-            background: url(assets/Title-Image.png);
-            display: flex;
-            background-repeat: no-repeat;
-            background-size: 100% 500px;
-            
-        }
-    
+        padding-top: 10px;
+        width: 100%;
+        height: 300px;
+        /* Adjust the height as needed for your design */
+        background: url(assets/Title-Image.png);
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: 100% 300px;
+        /* Adjust the background size */
+    }
+
     nav {
-            color: rgb(0, 0, 0);
-            width: 393px;
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: medium;
-            background-color: transparent;
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-            padding-right: 10px;
-            
-        }
-
-                .stack1 {
-                    width: 350px;
-                    display: flex;
-                    justify-content: space-evenly;
-                    margin-left: 30px;
-                    
-                }
-        
-                .stack1 a {
-                    margin-top: 7px;
-                    font-size: 15px;
-                }
-        
-                .stack2 {
-                    width: 150px;
-                    margin-top: 10px;
-                    margin-left:130px;
-                    display: none;
-                    justify-content: space-evenly;
-                }
-        
-                .stack1 img{
-                    margin-top: 5px;
-                    margin-left: -25px;
-                    height:20px ;
-                    width: 45px;
-                    
-                }
-                .stack2 img {
-                    margin-top: 4px;
-                    height: 13px;
-                }
-
-                /* Main div */
-        .main {
-            margin-left: -300px;
-            margin-top: 140px;
-            color: white;
-        
-
-            
-        }
-        .main h1{
-            font-size :80px;
-            padding-top: 20px;
-            margin-left: -80px;
-        }
-            
-        
-        .main h3{
-            font-size: 15px;
-            letter-spacing: 10px;
-        }
-        .logodiv{
-            margin-left:-80px;
-            
-        }
-        .logodiv img{
-            height: 34px;
-        }
-
-        .main .button1{
-            margin-top:10px ;
-            margin-left: -80px;
-            font-size: 10px;
-            width: 80px;
-            padding: 10px 0s;
-        }
-
-        button img{
-            width: 10px;
-        }
-        .main .button2{
-            margin-top:10px ;
-            font-size: 10px;
-            width: 100px;
-            padding: 10px 0px;
-        }
-
-        #addbutton{
-            position: relative;
-            margin-left: 250px !important;
-        }
-
-        .header span{
-    color: white;
-    position: relative;
-    margin-left: -355px;
-    margin-top: 250px;
-    font-size: 20px;
-    align-items: center;
-}
-    .header span img{
-        height: 12px;
-}
-
-        /* Movie Stack */
-    .movielist{
+        color: rgb(0, 0, 0);
+        width: 100%;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: medium;
+        background-color: transparent;
         display: flex;
         flex-direction: column;
-        
-    }
-    .moviestack1{
-        margin-left: -230px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .moviestack1 img {
-            width: 400px;
-            border-radius: 10px;
-            padding: 20px;
-            margin-right: -80px;
-        }
-
-    
-    .moviestack2{
-        margin-left: -210px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .moviestack2 img {
-            width: 400px;
-            border-radius: 10px;
-            padding: 20px;
-    
-        }
-
-    #movie6{
-        display:none;
+        justify-content: start;
+        align-items: center;
+        /* Center align navigation items */
+        padding-right: 10px;
     }
 
-    /* Footer */
-    .fostack1{
+    .stack1 {
         width: 100%;
-        padding: 10px ;
-        margin-left: -80px;
-    
+        display: flex;
+        justify-content: space-around;
+        /* Adjust spacing as needed */
+        margin: 10px 0;
+        /* Add margin for separation */
     }
 
-    .fostack1 img{
-        padding: 0px 30px;
+    .stack1 a {
+        font-size: 15px;
     }
 
-    .fostack2{
-        margin-left: 10px;
+    .stack2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        /* Adjust spacing as needed */
+        margin: 10px 0;
+        /* Add margin for separation */
     }
 
-    footer{
-        padding: 0px 30px;
+    .stack2 img {
+        height: 13px;
     }
 
-    
+    .stack1 img {
+        height: 20px;
+        width: 45px;
+    }
 
+    /* Main div */
+    .main {
+        margin-left: 0;
+        margin-top: 20px;
+        color: white;
+        text-align: center;
+        /* Center-align text */
+    }
+
+    .main h1 {
+        font-size: 60px;
+        /* Adjust font size */
+    }
+
+    .main h3 {
+        font-size: 12px;
+        /* Adjust font size */
+        letter-spacing: 5px;
+        /* Adjust letter spacing */
+    }
+
+    .logodiv {
+        margin-left: 0;
+    }
+
+    .logodiv img {
+        height: 24px;
+    }
+
+    .main button {
+        margin-top: 20px;
+        /* Adjust spacing */
+        font-size: 14px;
+        /* Adjust font size */
+    }
+
+    .button1 {
+        width: 80px;
+        /* Adjust button width */
+        padding: 5px 10px;
+        /* Adjust padding */
+    }
+
+    button img {
+        width: 12px;
+    }
+
+    .button2 {
+        font-size: 14px;
+        /* Adjust font size */
+        width: 100px;
+        /* Adjust button width */
+        padding: 5px 10px;
+        /* Adjust padding */
+    }
+
+    .header span {
+        color: white;
+        font-size: 16px;
+        /* Adjust font size */
+        align-items: center;
+        text-align: center;
+        /* Center-align text */
+        margin: 20px 0;
+        /* Adjust margin */
+    }
+
+    .header span img {
+        height: 12px;
+    }
+
+    /* Movie Stack */
+    .movielist {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .moviestack1, .moviestack2 {
+        width: 100%;
+        gap: 20px;
+        flex-direction: column;
+        /* Stack movies vertically on smaller screens */
+        justify-content: center;
+    }
+
+    .moviestack1 img, .moviestack2 img {
+        width: calc(100% - 20px); /* Adjust image width to fit the screen width with a gap */
+        border-radius: 10px;
+        margin-bottom: 20px; /* Add margin to separate movies vertically */
+    }
 }
