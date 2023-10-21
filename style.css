@@ -316,9 +316,10 @@ footer {
         font-size: 25px;
         letter-spacing: 20px;
     }
-
+    
     .main h1 {
         font-size: 60px;
+        margin-left: -50px;
     }
 
     .main h3 {
@@ -329,11 +330,13 @@ footer {
     .main button {
         margin-top: 20px;
         font-size: 14px;
+
+        padding: 4px;
     }
 
     .button1 {
         width: 80px;
-        padding: 5px 10px;
+        margin-left: -200px;
     }
 
     button img {
